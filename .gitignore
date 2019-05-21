@@ -1,0 +1,11 @@
+#Composer
+/composer.phar
+/composer.lock
+
+/src/test
+
+# Intellij
+.idea
+*.iml
+*.ipr
+*.iws

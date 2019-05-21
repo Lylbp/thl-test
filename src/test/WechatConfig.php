@@ -16,21 +16,21 @@ class WechatConfig extends WeChatConfigAbstract
 
     public function getWechatAppId()
     {
-        return "1";
+        return "111";
     }
 
     public function getWechatAppSecret()
     {
-        return "2";
+        return "2222";
     }
 
     public function getWechatMerchantKey()
     {
-        return "3";
+        return "3333";
     }
 
     public function getWechatMerchantId()
     {
-        return "4";
+        return "4444";
     }
 }
