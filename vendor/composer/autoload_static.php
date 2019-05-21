@@ -4,12 +4,11 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit15e37f439f3a1f8c400c8b666806e9cc
+class ComposerStaticInit9e9de966e694e2ee66236e2f90a96959
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -22,7 +21,6 @@ class ComposerStaticInit15e37f439f3a1f8c400c8b666806e9cc
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\Yaml\\' => 23,
-            'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\Console\\' => 26,
         ),
@@ -39,6 +37,7 @@ class ComposerStaticInit15e37f439f3a1f8c400c8b666806e9cc
         array (
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
         ),
     );
@@ -59,10 +58,6 @@ class ComposerStaticInit15e37f439f3a1f8c400c8b666806e9cc
         'Symfony\\Component\\Yaml\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
-        ),
-        'Symfony\\Component\\VarDumper\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
         'Symfony\\Component\\Debug\\' => 
         array (
@@ -91,6 +86,10 @@ class ComposerStaticInit15e37f439f3a1f8c400c8b666806e9cc
         'Doctrine\\Common\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
+        'Doctrine\\Common\\Annotations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
         ),
         'Doctrine\\Common\\' => 
         array (
@@ -121,19 +120,15 @@ class ComposerStaticInit15e37f439f3a1f8c400c8b666806e9cc
             array (
                 0 => __DIR__ . '/..' . '/doctrine/collections/lib',
             ),
-            'Doctrine\\Common\\Annotations\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/doctrine/annotations/lib',
-            ),
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit15e37f439f3a1f8c400c8b666806e9cc::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit15e37f439f3a1f8c400c8b666806e9cc::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit15e37f439f3a1f8c400c8b666806e9cc::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9e9de966e694e2ee66236e2f90a96959::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9e9de966e694e2ee66236e2f90a96959::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit9e9de966e694e2ee66236e2f90a96959::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
