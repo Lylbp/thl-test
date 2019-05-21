@@ -24,6 +24,6 @@
         "monolog/monolog": "1.23.*",
         "doctrine/orm": "^2.4.8",
         "symfony/yaml": "2.*",
-        "myclabs/php-enum": "1.6.6"
+        "myclabs/php-enum": "1.5.2"
     }
 }
