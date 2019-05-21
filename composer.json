@@ -1,0 +1,29 @@
+{
+    "name": "lylbp/thl",
+    "description": "thl三方组件",
+    "license": "MIT",
+    "type": "library",
+    "homepage": "https://gitee.com/Lylbp/thl",
+    "keywords": [
+        "thl", "wechat", "ali"
+    ],
+    "authors": [
+        {
+            "name": "weiwenbin",
+            "email": "849059064@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "thl\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.9",
+        "monolog/monolog": "1.23.*",
+        "doctrine/orm": "^2.4.8",
+        "symfony/yaml": "2.*",
+        "myclabs/php-enum": "1.6.6"
+    }
+}

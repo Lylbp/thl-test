@@ -1,0 +1,7 @@
+parameters:
+    get_access_token_url: https://api.weixin.qq.com/cgi-bin/token
+    get_ticket_url: https://api.weixin.qq.com/cgi-bin/ticket/getticket
+
+
+
+
