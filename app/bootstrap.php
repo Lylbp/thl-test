@@ -5,8 +5,8 @@ require_once dirname(__DIR__).'/vendor/autoload.php';
 
 
 
-use Doctrine\ORM\Tools\Setup;
-use Doctrine\ORM\EntityManager;
+//use Doctrine\ORM\Tools\Setup;
+//use Doctrine\ORM\EntityManager;
 
 //数据库配置
 //$dbParams = array(
@@ -19,12 +19,12 @@ use Doctrine\ORM\EntityManager;
 //);
 
 //元数据配置
-$isDevMode = true;
-$paths = array(dirname(__DIR__) . "/src/entity");
-$config = Setup::createAnnotationMetadataConfiguration($paths, $isDevMode);
+//$isDevMode = true;
+//$paths = array(dirname(__DIR__) . "/src/entity");
+//$config = Setup::createAnnotationMetadataConfiguration($paths, $isDevMode);
 
 //获取EntityManager
-/**
- * @var \Doctrine\Common\Persistence\ObjectManager
- */
+///**
+// * @var \Doctrine\Common\Persistence\ObjectManager
+// */
 //$entityManager = EntityManager::create($dbParams, $config);

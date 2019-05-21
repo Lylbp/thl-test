@@ -9,13 +9,13 @@
 namespace thl\third\weChat\share;
 
 use thl\common\CurlTool;
+use thl\common\ResultUtil;
 use thl\common\StringTool;
 use thl\entity\ThlResult;
 use thl\enum\ParamterTypeEnum;
 use thl\enum\RandomTypeEnum;
 use thl\enum\ResultEnum;
 use thl\Exception\ThlResultException;
-use thl\third\utils\ResultUtil;
 use thl\third\weChat\abstracts\WeChatConfigAbstract;
 use thl\third\weChat\interfaces\ThlWeChatInterface;
 use thl\ThlBase;

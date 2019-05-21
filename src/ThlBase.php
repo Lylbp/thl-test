@@ -8,13 +8,12 @@
 
 namespace thl;
 
-use Doctrine\Common\Persistence\ObjectManager;
+//use Doctrine\Common\Persistence\ObjectManager;
 use Symfony\Component\Yaml\Exception\ParseException;
 use Symfony\Component\Yaml\Yaml;
 use thl\enum\ParamterTypeEnum;
 use thl\enum\ResultEnum;
 use thl\Exception\ThlResultException;
-use thl\third\utils\ResultUtil;
 
 class ThlBase
 {
